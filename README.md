@@ -317,7 +317,6 @@ Install the following before running the framework:
 
 # 🚀 Getting Started
 
-## 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/imademethink/Automation_Java_Playwright_BDD_Cucumber_TestNG_Reporting_Maven.git
@@ -359,64 +358,6 @@ Generate Allure Reports:
 allure serve allure-report
 ```
 
-## 2️⃣ Create Virtual Environment
-
-### Windows
-
-```bash
-python -m venv venv
-```
-
-Activate:
-
-```bash
-venv\Scripts\activate
-```
-
-### Linux / macOS
-
-```bash
-python3 -m venv venv
-```
-
-Activate:
-
-```bash
-source venv/bin/activate
-```
-
----
-
-## 3️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# ▶️ Execute Tests
-
----
-
-# 📊 Generate HTML Report
-
-Example:
-
-```bash
-behave -f html -o reports/report.html
-```
-
-After execution:
-
-```text
-reports/
-└── report.html
-```
-
-Open the generated HTML report in a browser.
-
----
 
 # 🧪 Test Execution Examples
 
@@ -427,29 +368,6 @@ behave -f allure_behave.formatter:AllureFormatter -o allure-report  -f plain  --
 
 allure serve allure-report
 ```
-
-
-# 🔐 Environment Management
-
-Different environments can be supported through configuration.
-
-Example:
-
-```text
-config/
-├── config.dev.ini
-├── config.qa.ini
-├── config.stage.ini
-└── config.prod.ini
-```
-
-Example execution:
-
-```bash
-behave -D environment=qa
-```
-
----
 
 # 🧹 Clean Framework Principles
 
@@ -541,14 +459,9 @@ Potential future enhancements:
 
 * API Automation
 * Database Validation
-* Allure Reporting
-* Extent-style reporting
 * Docker Support
 * Parallel Execution
 * Retry Mechanism
-* Selenium Grid
-* Remote Browser Execution
-* Cloud Browser Execution
 * GitHub Actions Pipeline
 * Jenkins Pipeline
 * Azure DevOps Pipeline
@@ -556,7 +469,6 @@ Potential future enhancements:
 * Excel-Based Test Data
 * JSON-Based Test Data
 * Environment Management
-* Secret Management
 * Advanced Failure Diagnostics
 
 ---
