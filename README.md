@@ -319,13 +319,13 @@ Install the following before running the framework:
 
 
 ```bash
-git clone https://github.com/imademethink/Automation_Java_Playwright_BDD_Cucumber_TestNG_Reporting_Maven.git
+git clone https://github.com/imademethink/Python_Selenium_Behave_Cucumber_Reporting.git
 ```
 
 Navigate to the project:
 
 ```bash
-cd Automation_Java_Playwright_BDD_Cucumber_TestNG_Reporting_Maven
+cd Python_Selenium_Behave_Cucumber_Reporting
 ```
 Create environment:
 
