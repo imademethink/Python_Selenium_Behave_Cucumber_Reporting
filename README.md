@@ -14,7 +14,7 @@ This repository provides a production-ready **Python Selenium BDD Automation Fra
 
 * 🐍 Python
 * 🌐 Selenium WebDriver
-* 🥒 Behave
+* 🥒 Cucumber
 * 📝 Gherkin
 * 📊 HTML Reporting
 * 🧩 Page Object Model
