@@ -222,7 +222,7 @@ This allows multiple test conditions to be executed using a single scenario defi
 # 📂 Project Structure
 
 ```text
-Automation_Python_Selenium_BDD_Behave_Reporting/
+Python_Selenium_Behave_Cucumber_Reporting/
 │
 ├── features/
 │   │
