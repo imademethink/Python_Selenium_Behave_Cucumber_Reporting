@@ -352,6 +352,16 @@ behave -f allure_behave.formatter:AllureFormatter -o allure-report  -f plain  --
 ```
 
 
+Allure Binary intallation:
+
+```bash
+Download Allure Binary from below link
+https://github.com/allure-framework/allure2/releases
+
+Save it to a folder and add it's path in environment variable
+```
+
+
 Generate Allure Reports:
 
 ```bash
