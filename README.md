@@ -317,6 +317,7 @@ Install the following before running the framework:
 
 # 🚀 Getting Started
 
+Download code:
 
 ```bash
 git clone https://github.com/imademethink/Python_Selenium_Behave_Cucumber_Reporting.git
@@ -345,6 +346,12 @@ Install packages:
 pip install -r requirements.txt
 ```
 
+Run specific tests with a specific tag:
+
+```bash
+behave -f allure_behave.formatter:AllureFormatter -o allure-report  -f plain  --no-skipped --tags=smoke
+```
+
 Run all tests:
 
 ```bash
@@ -352,15 +359,11 @@ behave -f allure_behave.formatter:AllureFormatter -o allure-report  -f plain  --
 ```
 
 
-Allure Binary intallation:
+Allure Binary intallation: Download Allure Binary from below link, Save it to a folder and add it's path in environment variable
 
 ```bash
-Download Allure Binary from below link
 https://github.com/allure-framework/allure2/releases
-
-Save it to a folder and add it's path in environment variable
 ```
-
 
 Generate Allure Reports:
 
