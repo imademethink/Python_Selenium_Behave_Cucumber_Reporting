@@ -379,17 +379,6 @@ Generate Allure Reports:
 allure serve allure-report
 ```
 
-
-# 🧪 Test Execution Examples
-
-### Run Specific Scenario
-
-```bash
-behave -f allure_behave.formatter:AllureFormatter -o allure-report  -f plain  --no-skipped
-
-allure serve allure-report
-```
-
 # 🧹 Clean Framework Principles
 
 The framework follows a few simple principles:
